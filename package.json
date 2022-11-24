@@ -48,6 +48,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "buildCommit": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\" && npm run build && git add . && git commit && git push",
+    "nBuildCommit": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\" && git add . && git commit && git push",
     "commit": "git add . && git commit && git push",
     "cypress:open": "cypress open"
   },

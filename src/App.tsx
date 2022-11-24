@@ -1,7 +1,15 @@
 import React from "react";
 
 function App() {
-  return <h1>Teste!</h1>;
+  return (
+    <button
+      onClick={() => {
+        alert("Exemplo inicializado com sucesso!");
+      }}
+    >
+      Clique!
+    </button>
+  );
 }
 
 export default App;
